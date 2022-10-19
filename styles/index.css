@@ -1,0 +1,267 @@
+html,
+body {
+  font-family: "Roboto";
+  color: white;
+  background-color: #252b42;
+}
+* {
+  box-sizing: border-box;
+}
+button {
+  cursor: pointer;
+}
+.header {
+  padding: 38px;
+  font-size: 15px;
+}
+.header nav ul li a {
+  color: white;
+  text-decoration: none;
+  transition: font-size 0.15s ease-in-out;
+}
+.header nav ul li {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+.header nav ul li a:hover {
+  font-size: 18px;
+  transition: font-size 0.15s ease-in-out;
+}
+.header-logo {
+  width: 186px;
+  height: 58px;
+}
+
+.header > div {
+  width: 33.33%;
+}
+
+.input {
+  border-radius: 39px;
+  background-color: #efefef;
+  padding: 19px 39px;
+  border: 0px;
+  font-size: 14px;
+}
+
+.input::placeholder {
+  color: #18171d;
+}
+
+.btn {
+  border-radius: 35px;
+  padding: 19px 39px;
+  border: 0px;
+  font-weight: bold;
+  background-color: white;
+  font-size: 16px;
+  line-height: 16px;
+  transition: all 0.15s ease-in-out;
+}
+
+.btn2{
+  border-radius: 35px;
+  padding: 19px 39px;
+  border: 0px;
+  font-weight: bold;
+  background-color: #38A3F1;
+  font-size: 16px;
+  line-height: 16px;
+  transition: all 0.15s ease-in-out
+}
+.btn3{
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 19px 35px;
+  gap: 47px;
+  width: 353px;
+  height: 54px;
+  background: #F4F4F4;
+  border: 1px #E8E8E8;
+  border-radius: 39px;
+}
+.btn4{
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items:center;
+  padding: 17px 35px;
+  width: 353px;
+  height: 50px;
+  background: #EF2779;
+  border: 1px #E8E8E8;
+  border-radius: 35px;
+}
+.btn:hover {
+  opacity: 0.8;
+  transition: all 0.15s ease-in-out;
+}
+.btn:active {
+  opacity: 0.6;
+  transition: all 0.15s ease-in-out;
+}
+
+.header-mail-input-container {
+  margin-right: 12px;
+}
+
+.bg-gradient {
+  background: linear-gradient(39.97deg, #ef2779 0.79%, #7834be 79.29%);
+  height: 805px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 0;
+}
+.bg-gradient > div {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.bg-gradient svg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.text-pink {
+  color: #ef2779;
+}
+.text-white{
+  color: #FFFFFF;
+}
+.text-black{
+  color: #18171D;
+}
+
+main {
+  position: relative;
+  z-index: 1;
+}
+
+#above-the-fold > div:nth-child(1) {
+  flex: 3;
+}
+#above-the-fold > div:nth-child(2) {
+  flex: 2;
+}
+#above-the-fold .screenshot-image-container {
+  padding: 50px;
+  padding-left: 0;
+}
+#above-the-fold {
+  align-items: center;
+}
+
+h1 {
+  font-size: 55px;
+  font-weight: 900;
+  color: white;
+}
+p {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.slogan-container {
+  padding: 40px;
+}
+.text-blue {
+  color: #38a3f1;
+}
+
+@media only screen and (max-width: 1240px) {
+  .d-mobile-none {
+    display: none;
+  }
+  #above-the-fold {
+    flex-direction: column-reverse;
+  }
+  #above-the-fold .screenshot-image-container {
+    padding: 23px;
+  }
+  h1 {
+    font-size: 46px;
+    font-weight: 400;
+  }
+  .slogan-container {
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 1240px) {
+  .d-desktop-block {
+    display: block;
+  }
+  .d-desktop-none {
+    display: none;
+  }
+}
+.pragraph {
+    padding: 0px;
+    text-align:center;
+}
+
+.vector{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 43px;
+    height: 42.5px;
+    background: #EF2779;
+    border-radius: 29.9846px;  
+}
+
+.h2{
+font-family:'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 46px;
+line-height: 57px;
+}
+
+.h3{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 33px;
+
+}
+
+.h4{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+}
+.Macbook{
+
+    width: 1033.26px;
+    height: 577.74px;
+   
+}
+.under-icons{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.2px;
+}
+.near-icons{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.1px;
+}
+
+.prg-above-email{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+}
